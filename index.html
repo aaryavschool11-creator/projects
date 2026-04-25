@@ -2,10 +2,33 @@
 <html>
   <head>
     <title>Home</title>
+    <style>
+      .body{
+        background-color: #99ffcc;
+      }
+      .heading{
+        display:flex;
+        justify-content:center;
+      }
+      .grid-container{
+        display:grid;
+        height:90vh;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+    </style>
   </head>
   <body>
+    <div class="heading">
     <h1>my projects</h1>
+    </div>
+    <div class="grid-container">
+      <div class="item site" 
     <a href="site1/">site 1</a>
+      </div>
+      <div class="item site">
     <a href="site2/">site 2</a>
+      </div>
+    </div>
   </body>
 </html>
