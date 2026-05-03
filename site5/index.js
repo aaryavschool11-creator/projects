@@ -10,7 +10,7 @@ function stroke(event){
 function handleClick(){
     var buttonText = this.innerHTML;
     pressKey(buttonText);
-    pressKey(buttonText);
+    animation(buttonText);
 }
 
 function pressKey(key){
